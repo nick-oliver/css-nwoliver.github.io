@@ -189,6 +189,15 @@ h2 + p {
 .col-three .col-aside {
   flex: 0 1 20em;
 }
+.col-two {
+  display: flex;
+}
+.col-two .col-aside {
+  flex: 0 0 20em;
+}
+.col-two .col-content {
+  flex: 1;
+}
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
