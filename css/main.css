@@ -632,14 +632,13 @@ h2 + p {
    z-index: 9;
  }
  .header-nav li {
-   border: 0;
    display: block;
    margin-top: 1em 0 0;
    padding: 0;
  }
  .header-nav li ~ li {
    border: 0;
-   padding: 0;
+   padding: 0.25em;
 }
  .header-nav li:last-child {
    margin-bottom: 1em;
